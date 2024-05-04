@@ -6,4 +6,5 @@ let func = (word) => {
   }
   return word.at(-1);
 };
-func(prompt("Введите слово", ""));
+
+alert(func(prompt("Введите слово", "")));
